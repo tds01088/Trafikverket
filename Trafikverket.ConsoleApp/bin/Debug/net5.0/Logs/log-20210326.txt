@@ -1,0 +1,142 @@
+2021-03-26 14:52:05.418 +01:00 [INF] Application Starting
+2021-03-26 14:52:05.937 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 14:52:09.155 +01:00 [WRN] An error occured while starting the application
+Trafikverket.Application.Exceptions.ValidationException: Error in the application.
+   at Trafikverket.Application.Features.Camera.Commands.CreateCamera.CreateCameraCommandHandler.Handle(CreateCameraCommand request, CancellationToken cancellationToken) in D:\Console application\Trafikverket\Trafikverket.Application\Features\Camera\Commands\CreateCamera\CreateCameraCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at <Program>$.<<Main>$>d__0.MoveNext() in D:\Console application\Trafikverket\Trafikverket.ConsoleApp\Program.cs:line 69
+2021-03-26 14:55:59.679 +01:00 [INF] Application Starting
+2021-03-26 14:56:00.088 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 14:56:02.490 +01:00 [WRN] ["Name must not exceed 50 characters."]
+2021-03-26 14:56:26.188 +01:00 [INF] Application Starting
+2021-03-26 14:56:26.897 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 14:56:30.922 +01:00 [ERR] ["Name must not exceed 50 characters."]
+2021-03-26 15:01:46.715 +01:00 [INF] Application Starting
+2021-03-26 15:01:47.283 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 15:01:50.033 +01:00 [ERR] ["Name must not exceed 50 characters."]
+2021-03-26 15:02:16.698 +01:00 [INF] Application Starting
+2021-03-26 15:02:17.184 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 15:02:19.625 +01:00 [INF] Entity Framework Core 5.0.4 initialized 'TrafikverketContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Trafikverket 
+2021-03-26 15:02:19.784 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.799 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.803 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.806 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.807 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.808 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.810 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.813 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.815 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.816 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.818 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.820 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.822 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.824 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.827 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.829 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.831 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.832 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.835 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.837 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.840 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.842 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.844 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.846 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.848 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.850 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.853 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.862 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.864 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.866 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.869 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.871 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.872 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.874 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.878 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.880 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.882 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.884 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.886 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.889 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.892 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:02:19.895 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:03:57.125 +01:00 [INF] Application Starting
+2021-03-26 15:03:57.574 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 15:04:00.498 +01:00 [INF] Entity Framework Core 5.0.4 initialized 'TrafikverketContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Trafikverket 
+2021-03-26 15:04:00.667 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.683 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.687 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.690 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.692 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.693 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.696 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.697 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.698 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.700 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.701 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.704 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.706 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.707 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.709 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.710 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.712 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.714 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.716 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.718 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.720 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.722 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.724 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.726 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.728 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.729 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.731 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.742 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.745 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.761 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.779 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.797 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.809 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.819 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.834 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.848 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.862 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.878 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.884 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.898 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.914 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:04:00.928 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-26 15:05:08.625 +01:00 [INF] Application Starting
+2021-03-26 15:05:09.188 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:00:23.413 +01:00 [INF] Application Starting
+2021-03-26 17:00:24.031 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:00:27.135 +01:00 [ERR] {"error":"Response status code does not indicate success: 400 (Bad Request)."}
+2021-03-26 17:01:07.550 +01:00 [INF] Application Starting
+2021-03-26 17:01:08.244 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:05:15.983 +01:00 [INF] Application Starting
+2021-03-26 17:05:16.425 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:05:50.103 +01:00 [INF] Application Starting
+2021-03-26 17:05:50.639 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:06:37.727 +01:00 [INF] Application Starting
+2021-03-26 17:06:38.302 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:07:38.636 +01:00 [INF] Application Starting
+2021-03-26 17:07:39.232 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:08:33.213 +01:00 [INF] Application Starting
+2021-03-26 17:08:33.887 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:11:00.881 +01:00 [INF] Application Starting
+2021-03-26 17:11:01.332 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:12:58.673 +01:00 [INF] Application Starting
+2021-03-26 17:12:59.397 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:13:52.052 +01:00 [INF] Application Starting
+2021-03-26 17:13:52.528 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:15:16.916 +01:00 [INF] Application Starting
+2021-03-26 17:15:17.417 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:20:32.953 +01:00 [INF] Application Starting
+2021-03-26 17:20:33.488 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:22:52.126 +01:00 [INF] Application Starting
+2021-03-26 17:22:52.639 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-26 17:23:42.486 +01:00 [INF] Application Starting
+2021-03-26 17:23:42.968 +01:00 [INF] Trafikverket API Service  Starting

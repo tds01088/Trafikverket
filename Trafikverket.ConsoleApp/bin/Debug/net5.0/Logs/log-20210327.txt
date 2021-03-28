@@ -1,0 +1,10 @@
+2021-03-27 11:27:04.504 +01:00 [INF] Application Starting
+2021-03-27 11:27:05.024 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-27 12:48:15.389 +01:00 [INF] Application Starting
+2021-03-27 12:48:25.798 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-27 12:56:59.300 +01:00 [INF] Application Starting
+2021-03-27 12:57:08.063 +01:00 [INF] Trafikverket API Service  Starting
+2021-03-27 12:57:55.447 +01:00 [INF] Application Starting
+2021-03-27 12:58:23.633 +01:00 [ERR] ["Payload Name is not Camera."]
+2021-03-27 13:01:03.600 +01:00 [INF] Application Starting
+2021-03-27 13:01:08.383 +01:00 [INF] Trafikverket API Service  Starting

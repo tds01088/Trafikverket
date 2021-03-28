@@ -1,0 +1,14 @@
+D:\Console application\Trafikverket\Trafikverket.Persistence\bin\Debug\netstandard2.1\Trafikverket.Persistence.deps.json
+D:\Console application\Trafikverket\Trafikverket.Persistence\bin\Debug\netstandard2.1\Trafikverket.Persistence.dll
+D:\Console application\Trafikverket\Trafikverket.Persistence\bin\Debug\netstandard2.1\Trafikverket.Persistence.pdb
+D:\Console application\Trafikverket\Trafikverket.Persistence\bin\Debug\netstandard2.1\Trafikverket.Application.dll
+D:\Console application\Trafikverket\Trafikverket.Persistence\bin\Debug\netstandard2.1\Trafikverket.Domain.dll
+D:\Console application\Trafikverket\Trafikverket.Persistence\bin\Debug\netstandard2.1\Trafikverket.Application.pdb
+D:\Console application\Trafikverket\Trafikverket.Persistence\bin\Debug\netstandard2.1\Trafikverket.Domain.pdb
+D:\Console application\Trafikverket\Trafikverket.Persistence\obj\Debug\netstandard2.1\Trafikverket.Persistence.csprojAssemblyReference.cache
+D:\Console application\Trafikverket\Trafikverket.Persistence\obj\Debug\netstandard2.1\Trafikverket.Persistence.AssemblyInfoInputs.cache
+D:\Console application\Trafikverket\Trafikverket.Persistence\obj\Debug\netstandard2.1\Trafikverket.Persistence.AssemblyInfo.cs
+D:\Console application\Trafikverket\Trafikverket.Persistence\obj\Debug\netstandard2.1\Trafikverket.Persistence.csproj.CoreCompileInputs.cache
+D:\Console application\Trafikverket\Trafikverket.Persistence\obj\Debug\netstandard2.1\Trafikverket.Persistence.csproj.CopyComplete
+D:\Console application\Trafikverket\Trafikverket.Persistence\obj\Debug\netstandard2.1\Trafikverket.Persistence.dll
+D:\Console application\Trafikverket\Trafikverket.Persistence\obj\Debug\netstandard2.1\Trafikverket.Persistence.pdb

@@ -1,0 +1,10 @@
+D:\Console application\Trafikverket\Trafikverket.Database\bin\Debug\Trafikverket.Database.dacpac
+D:\Console application\Trafikverket\Trafikverket.Database\bin\Debug\Trafikverket.Database.dll
+D:\Console application\Trafikverket\Trafikverket.Database\bin\Debug\Trafikverket.Database.pdb
+D:\Console application\Trafikverket\Trafikverket.Database\obj\Debug\Trafikverket.Database.sqlprojAssemblyReference.cache
+D:\Console application\Trafikverket\Trafikverket.Database\obj\Debug\Trafikverket.Database.dll
+D:\Console application\Trafikverket\Trafikverket.Database\obj\Debug\Trafikverket.Database.pdb
+D:\Console application\Trafikverket\Trafikverket.Database\obj\Debug\Model.xml
+D:\Console application\Trafikverket\Trafikverket.Database\obj\Debug\refactor.xml
+D:\Console application\Trafikverket\Trafikverket.Database\obj\Debug\postdeploy.sql
+D:\Console application\Trafikverket\Trafikverket.Database\obj\Debug\predeploy.sql

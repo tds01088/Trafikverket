@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+ <ItemGroup>    
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+   <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+  </ItemGroup>
+ <ItemGroup>
+   <ProjectReference Include="..\Trafikverket.Application\Trafikverket.Application.csproj" />
+   <ProjectReference Include="..\Trafikverket.Domain\Trafikverket.Domain.csproj" />
+ </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+D:\Console application\Trafikverket\Trafikverket.Application\bin\Debug\netstandard2.1\Trafikverket.Application.deps.json
+D:\Console application\Trafikverket\Trafikverket.Application\bin\Debug\netstandard2.1\Trafikverket.Application.dll
+D:\Console application\Trafikverket\Trafikverket.Application\bin\Debug\netstandard2.1\Trafikverket.Application.pdb
+D:\Console application\Trafikverket\Trafikverket.Application\bin\Debug\netstandard2.1\Trafikverket.Domain.dll
+D:\Console application\Trafikverket\Trafikverket.Application\bin\Debug\netstandard2.1\Trafikverket.Domain.pdb
+D:\Console application\Trafikverket\Trafikverket.Application\obj\Debug\netstandard2.1\Trafikverket.Application.csprojAssemblyReference.cache
+D:\Console application\Trafikverket\Trafikverket.Application\obj\Debug\netstandard2.1\Trafikverket.Application.AssemblyInfoInputs.cache
+D:\Console application\Trafikverket\Trafikverket.Application\obj\Debug\netstandard2.1\Trafikverket.Application.AssemblyInfo.cs
+D:\Console application\Trafikverket\Trafikverket.Application\obj\Debug\netstandard2.1\Trafikverket.Application.csproj.CoreCompileInputs.cache
+D:\Console application\Trafikverket\Trafikverket.Application\obj\Debug\netstandard2.1\Trafikverket.Application.csproj.CopyComplete
+D:\Console application\Trafikverket\Trafikverket.Application\obj\Debug\netstandard2.1\Trafikverket.Application.dll
+D:\Console application\Trafikverket\Trafikverket.Application\obj\Debug\netstandard2.1\Trafikverket.Application.pdb

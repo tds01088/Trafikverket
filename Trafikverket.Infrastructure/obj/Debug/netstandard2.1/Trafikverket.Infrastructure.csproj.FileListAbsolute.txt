@@ -1,0 +1,16 @@
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Infrastructure.deps.json
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Infrastructure.dll
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Infrastructure.pdb
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Application.dll
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Domain.dll
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Persistence.dll
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Application.pdb
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Domain.pdb
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\bin\Debug\netstandard2.1\Trafikverket.Persistence.pdb
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\obj\Debug\netstandard2.1\Trafikverket.Infrastructure.csprojAssemblyReference.cache
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\obj\Debug\netstandard2.1\Trafikverket.Infrastructure.AssemblyInfoInputs.cache
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\obj\Debug\netstandard2.1\Trafikverket.Infrastructure.AssemblyInfo.cs
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\obj\Debug\netstandard2.1\Trafikverket.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\obj\Debug\netstandard2.1\Trafikverket.Infrastructure.csproj.CopyComplete
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\obj\Debug\netstandard2.1\Trafikverket.Infrastructure.dll
+D:\Console application\Trafikverket\Trafikverket.Infrastructure\obj\Debug\netstandard2.1\Trafikverket.Infrastructure.pdb
