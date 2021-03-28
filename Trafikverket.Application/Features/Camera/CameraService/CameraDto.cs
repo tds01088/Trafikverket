@@ -14,7 +14,7 @@ namespace Trafikverket.Application.Features.Camera.CameraService
         public bool HasFullSizePhoto { get; set; }
         public bool HasSketchImage { get; set; }
         public string IconId { get; set; }
-        public string Id { get; set; }
+        public string CameraId { get; set; }
         public DateTime ModifiedTime { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }

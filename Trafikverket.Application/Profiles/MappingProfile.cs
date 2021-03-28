@@ -11,7 +11,10 @@ namespace Trafikverket.Application.Profiles
     {
         public MappingProfile()
         {
-            CreateMap<Camera, CameraDto>();
+            CreateMap<Camera, CameraDto>()
+                  .ForMember(dest => dest.CameraId,
+                     opts => opts.MapFrom(source => source.Id));
+            CreateMap<CameraDto, CreateCameraCommand>();
             CreateMap<CreateCameraCommand, CameraEntity>();
             CreateMap<CameraEntity, CameraList>();            
         }
