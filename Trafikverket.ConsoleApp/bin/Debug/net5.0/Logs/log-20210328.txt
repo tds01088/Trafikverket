@@ -1,0 +1,6 @@
+2021-03-28 14:16:37.845 +02:00 [INF] Application Starting
+2021-03-28 14:16:51.798 +02:00 [INF] Trafikverket API Service  Starting
+2021-03-28 14:18:35.586 +02:00 [INF] Application Starting
+2021-03-28 14:18:36.295 +02:00 [INF] Trafikverket API Service  Starting
+2021-03-28 14:21:12.421 +02:00 [INF] Application Starting
+2021-03-28 14:21:13.159 +02:00 [INF] Trafikverket API Service  Starting

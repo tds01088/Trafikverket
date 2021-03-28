@@ -33,8 +33,7 @@ namespace Trafikverket.Application.Features.Camera.Commands.CreateCamera
                   throw new Exceptions.ValidationException(validationResult);
 
             var @camera = _mapper.Map<CameraEntity>(request);
-            await _cameraRepository.AddAsync(@camera);
-            Console.WriteLine($"ID   {@camera.Id}  - {@camera.Direction}");
+            await _cameraRepository.AddAsync(@camera);          
             return  @camera.Id;
         }
     }

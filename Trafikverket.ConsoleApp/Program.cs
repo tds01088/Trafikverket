@@ -14,6 +14,7 @@ using Trafikverket.Application.Features.Camera.Commands.CreateCamera;
 using Trafikverket.Application.Features.Camera.Queries.GetCameraList;
 using Trafikverket.Application.Exceptions;
 using Newtonsoft.Json;
+using AutoMapper;
 
 Console.WriteLine(
      FiggleFonts.Standard.Render("Trafikverket, ConsoleApp .NET 5"));
@@ -26,7 +27,6 @@ Log.Logger = new LoggerConfiguration()
                .ReadFrom.Configuration(configuration)
                .Enrich.FromLogContext()
                .WriteTo.File($"Logs/log-.txt", rollingInterval: RollingInterval.Day)
-               //.WriteTo.Console()
                .CreateLogger();
 
 var builder = new HostBuilder()
@@ -50,28 +50,25 @@ try
 
     //Get MediatR by resolver
     var _mediator = ActivatorUtilities.GetServiceOrCreateInstance<IMediator>(host.Services);
-
+    var _mapper = ActivatorUtilities.GetServiceOrCreateInstance<IMapper>(host.Services);
     //Get CameraDetail from Trafikverket Service API
     var CameraDtos = await _mediator.Send(new GetCameraDetailServiceQuery() { PayloadName = "GetAllCamera" });
     foreach (var item in CameraDtos)
-    {     
+    {
 
         //Create command (save Camera)
-      await _mediator.Send(new CreateCameraCommand()
-        {
-            Active = item.Active,
-            ContentType = item.ContentType,
-            Name = item.Name,
-            Direction = item.Direction
-        });
+        await _mediator.Send(_mapper.Map<CreateCameraCommand>(item));      
      
     }
     Console.WriteLine($"Antal kameror {CameraDtos.Count}");
 
-    //get CameraList from MemoryDatabase
-     var cameraList = await _mediator.Send(new GetCameraListWithDirection90Query());
-    Console.WriteLine($"Antal kameror som har ”direction: 90 ” {cameraList.Count}");  
-   
+    //get CameraList from MemoryDatabase Direction 90
+    var cameraList = await _mediator.Send(new GetCameraListWithDirection90Query());
+    Console.WriteLine($"Antal kameror som har ”direction: 90” {cameraList.Count}");
+    foreach (var item in cameraList)
+    {
+        Console.WriteLine($"ID   {item.Id}  - Direction  {item.Direction} - CameraId {item.CameraId}");
+    }
 }
 catch (Exception exception)
 {
